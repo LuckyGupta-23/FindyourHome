@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: 75vh;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(202, 215, 218);
+  color: #100e0e;
+}
+.list {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+}
+.list li {
+  margin: 0 23px;
+  font-size: large;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  font-size: large;
+}
+.Signin {
+  background-color: #f5eeee;
+  width: 400px;
+  height: 320px;
+  margin: 50px auto 10px auto;
+  padding: 30px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px -3px #faf8f8;
+  text-align: center;
+}
+.inputIn {
+  border-radius: 900px;
+  padding: 10px 15px;
+  width: 50%;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.Signup {
+  background-color: #f5eeee;
+  width: 400px;
+  height: 420px;
+  margin: 50px auto 10px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;
+}
+.inputUp {
+  padding: 10px 15px;
+  width: 50%;
+  border: 1px solid #d9d9d9;
+  outline: none;
+  display: block;
+  margin: 5px auto 5px auto;
+}
+button {
+  background-color: #2974ed;
+  color: white;
+  width: 64px;
+  height: 27px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 900px;
+}
+.profile-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_image {
+  height: 86vh;
+  width: 100%;
+}
+.rent-button {
+  position: absolute;
+  padding: 16px;
+  background-color: green;
+  border-radius: 16px;
+  bottom: 150px;
+  left: 100px;
+  width: 200px;
+  height: 50px;
+}
+.sale-button {
+  position: absolute;
+  padding: 16px;
+  background-color: green;
+  border-radius: 16px;
+  bottom: 150px;
+  right: 100px;
+  width: 200px;
+  height: 50px;
+}
+.home-text {
+  position: absolute;
+  top: 25%;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.items-image{
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+.Listing-decoration a{
+ text-decoration: none;
+ color: #100e0e;
+}
+.item-details{
+  padding: 20px;
+}
+.create-listing-form{
+  
+  text-align: center;
+}
