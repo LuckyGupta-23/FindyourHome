@@ -26,10 +26,12 @@ function App() {
         <Route path="/Offers" element={<Offers />} />
         <Route path="/SignIn" element={<SignIn />} />
         <Route path="/Category/:CategoryName" element={<Category />} />
-        <Route path="/Profile" element={<Profile />} /> 
-
-        <Route path="/Profile" element={<PrivateRoute/>}/>
         
+        <Route path="/Profile" element={<Profile />} /> 
+        <Route path="/Profile" element={<PrivateRoute/>}>
+        <Route path="/Profile" element={<Profile />} /> 
+        </Route>
+
         <Route path="/ForgotPassword" element={<ForgotPassword />} />
         <Route path="/SignUp" element={<SignUp />} />
         <Route path="/Items" element={<Items />} />

@@ -114,7 +114,7 @@ const SignUp = () => {
           <div>
             <span>Already have an account?</span>
             <Link to="/SignIn">Login</Link>
-            <h4>Google</h4>
+            
             
           </div>
         </div>
